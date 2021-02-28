@@ -1,0 +1,42 @@
+.profile
+{
+    display: flex;
+    width: max-content;
+    flex-direction: row;
+    margin: 10%;
+    border: 1px solid black;
+    padding-top: 20px;
+}
+
+.profile table {
+    padding: 10%;
+    border: 1px solid black;
+}
+
+tr {
+    border: 1px solid black;
+    margin: 50px;
+}
+
+th {
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin:5px;
+}
+
+.profile h3 {
+    font-size: 150%;
+}
