@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 120px 0 100px 0;
+  background-image: url(indexback.jpeg);
+  background-size: cover;
+  height: 100%;
+  background-color: rgba(255,255,255,0.08);
+  background-blend-mode: lighten;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  /* opacity: 0.7; */
+  font-size: 45px;
+  /* color: #3b5998; */
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  font-size: 25px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 10px 0;
+  padding-top: 40px;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa{
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+  color: #eee;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.header-icon .menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+
+.scroll-down {
+  display: block;
+  align-self: center;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.down, .scroll-down{
+  font-size: 55px;
+  opacity: 0.7;
+}
+
+.down:hover{
+  font-size: 65px;
+  opacity: 1  ;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  padding: 30px;
+}
+.form-field-container {
+  margin-bottom: 20px;
+}
+label {
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+  padding-right: 10px;
+}
+input, textarea {
+  width: 300px;
+  padding: 5px;
+}
+textarea {
+  height: 200px;
+  resize: none;
+  overflow: auto;
+}
+.submit-btn {
+  text-align: right;
+}
